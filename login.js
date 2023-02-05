@@ -1,3 +1,4 @@
+
 const users =[
         {
 
@@ -38,13 +39,18 @@ formEl.addEventListener(
             const anchorTag = document.createElement('a');
             anchorTag.href = 'landingpage.html';
             anchorTag.click();
-            console.log('Hapu Susam');
         } else {
-            alert('username gabim');
             console.log('gabim');
+            const addAlert = document.getElementById('alert');
+            swal("Error", "Username ose Password Gabim", "error");
         }
     }
 )
 
 
+function pasValue(){
+    var firstname = document.getElementById('username');
+    localStorage.setItem("textvalue",firstname);
+    return false;
 
+}
