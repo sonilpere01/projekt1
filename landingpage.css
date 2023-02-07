@@ -134,3 +134,21 @@ result{
     font-size: 400px;
     font-family: "Poppins",sans-serif , "Inter Semi Bold";
 }
+
+.carousel-item{
+
+    margin-left: 100px;
+    height: 32rem;
+    background: #777;
+    position: relative;
+
+}
+.contanier{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+
+}
+
