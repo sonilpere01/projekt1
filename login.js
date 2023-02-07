@@ -23,6 +23,7 @@ formEl.addEventListener(
         event.preventDefault();
         const form = new FormData(formEl);
         const username = form.get('username');
+        const name = form.get('name');
         const password = form.get('password');
         if (
             users.some(
@@ -36,6 +37,7 @@ formEl.addEventListener(
             )
         ) {
             localStorage.setItem(LOCALSTORAGE_USERNAME, username.toString());
+            localStorage.setItem(LOCALSTORAGE_NAME, name.toString());
             const anchorTag = document.createElement('a');
             anchorTag.href = 'landingpage.html';
             anchorTag.click();
@@ -48,9 +50,11 @@ formEl.addEventListener(
 )
 
 
-function pasValue(){
-    var firstname = document.getElementById('username');
-    localStorage.setItem("textvalue",firstname);
-    return false;
+// function pasValue(){
+//     var firstname = document.getElementById('username');
+//     localStorage.setItem("textvalue",firstname);
+//     console.log(firstname);
+//     return false;
+//
+// }
 
-}

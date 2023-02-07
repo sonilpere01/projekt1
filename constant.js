@@ -1,2 +1,2 @@
 const LOCALSTORAGE_USERNAME = 'landingpage:username';
-const LOCALSTORAGE_USER = 'dice-game:user';
+const LOCALSTORAGE_NAME = 'landingpage:name';

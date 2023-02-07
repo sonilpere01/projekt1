@@ -77,3 +77,60 @@ nav:hover{
     position: absolute;
     bottom: 0;
 }
+
+.navM{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+
+.navM{
+    background: #0082e6;
+    height: 80px;
+}
+.label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.cards-wrapper{
+  column-gap: 15px;
+}
+
+.c-item{
+height: 280px;
+}
+
+.c-item{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.overview{
+    height: 80px;
+    background-color: white;
+}
+
+.contanier{
+    margin-bottom: auto;
+    margin-left: 200px;
+}
+
+h2{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Poppins",sans-serif , "Inter Semi Bold";
+    color: white;
+}
+result{
+    font-size: 400px;
+    font-family: "Poppins",sans-serif , "Inter Semi Bold";
+}
